@@ -25,6 +25,7 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h1 className="App-title">Welcome to ENSE701</h1>
+                    <h2>Some changes from collaborator</h2>
                 </header>
                 <p className="App-intro">{this.state.apiResponse}</p>
             </div>
